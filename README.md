@@ -55,6 +55,53 @@ Crear la escena principal y la estructura de un personaje para un juego en 2D.
 - `Assets/Sprites/Escenario/` → Fondo, suelo, rocas y decoración
 - `Assets/Audio/` → Música de fondo
 
+
+---
+
+# Unidad 3 - Actividad 3.2: Los prefabs
+
+Se agregó un sistema de disparo con prefab de proyectil y efectos de sonido.
+
+## Criterios cumplidos
+
+1. **El personaje dispara al detectar el evento del teclado**
+   - Se presiona **Ctrl + F** para disparar.
+   - Cooldown de 0.5 segundos entre disparos.
+
+2. **La bala no sale del centro del personaje**
+   - El proyectil sale desde la **punta de la espada** (`PuntoDisparo`).
+   - `PuntoDisparo` está alineado con el sprite del personaje.
+
+3. **La bala sale en dirección del personaje**
+   - Si el personaje mira a la derecha, el proyectil va a la derecha.
+   - Si mira a la izquierda, va a la izquierda.
+
+4. **Prefab del proyectil**
+   - `Assets/Sprites/Proyectil/Proyectil.prefab`
+   - Contiene: Sprite Renderer, Rigidbody 2D (Kinematic), Box Collider 2D (Is Trigger), Audio Source, Script `Projectile.cs`.
+   - El proyectil crece mientras avanza y explota al final (o al impactar).
+   - Al explotar, reproduce el sonido `magic58-vapor`.
+
+5. **Música de fondo con control de mute**
+   - Música: `11. Celestial Path` (loop).
+   - Botón `♪` para activar/silenciar.
+
+## Controles
+
+| Tecla | Acción |
+| :--- | :--- |
+| **← / →** | Caminar |
+| **Espacio** | Saltar |
+| **Ctrl + F** | Disparar proyectil |
+| **Botón ♪** | Activar/silenciar música |
+
+## Archivos nuevos
+
+- `Assets/Scripts/Projectile.cs` → Comportamiento del proyectil (movimiento, crecimiento, explosión, sonido)
+- `Assets/Sprites/Proyectil/Proyectil.prefab` → Prefab del proyectil
+- `Assets/Sprites/Proyectil/instanceportal_385x385.png` → Sprite del proyectil (onda de aura)
+- `Assets/Audio/magic58-vapor.flac` → Sonido de explosión
+
 ## Repositorio
 
 https://github.com/Osvaldo8005/Aura_Gamer_Combat

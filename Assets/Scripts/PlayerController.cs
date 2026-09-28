@@ -15,14 +15,19 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float groundCheckRadius = 0.2f;
     [SerializeField] private LayerMask groundLayer;
 
+    [Header("Disparo")]
+    [SerializeField] private GameObject proyectilPrefab;
+    [SerializeField] private Transform puntoDisparo;
+    [SerializeField] private float velocidadProyectil = 8f;
+    [SerializeField] private float cooldownDisparo = 0.5f;
+
     private Rigidbody2D rb;
     private Animator animator;
     private float horizontalInput;
     private bool isGrounded;
     private bool facingRight = true;
+    private float tiempoUltimoDisparo = 0f;
 
-    // Animator parameters: Speed (float), IsGrounded (bool)
-    // States: Idle (Speed ~ 0, grounded), Run (Speed > 0, grounded), Jump (!IsGrounded)
     private static readonly int SpeedHash = Animator.StringToHash("Speed");
     private static readonly int IsGroundedHash = Animator.StringToHash("IsGrounded");
 
@@ -37,6 +42,7 @@ public class PlayerController : MonoBehaviour
         ReadInput();
         CheckGrounded();
         HandleJump();
+        HandleShoot();
         UpdateAnimations();
         FlipSprite();
     }
@@ -68,6 +74,52 @@ public class PlayerController : MonoBehaviour
 
         if (keyboard.spaceKey.wasPressedThisFrame && isGrounded)
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+    }
+
+    private void HandleShoot()
+    {
+        Keyboard keyboard = Keyboard.current;
+        if (keyboard == null)
+            return;
+
+        // Ctrl + F para disparar
+        bool ctrlPresionado = keyboard.leftCtrlKey.isPressed || keyboard.rightCtrlKey.isPressed;
+        bool fPresionada = keyboard.fKey.wasPressedThisFrame;
+
+        if (ctrlPresionado && fPresionada && Time.time >= tiempoUltimoDisparo + cooldownDisparo)
+        {
+            Disparar();
+            tiempoUltimoDisparo = Time.time;
+        }
+    }
+
+    private void Disparar()
+    {
+        if (proyectilPrefab == null)
+        {
+            Debug.LogWarning("No hay Prefab de proyectil asignado.");
+            return;
+        }
+
+        // Determinar posición de origen
+        Vector2 origen = puntoDisparo != null
+            ? (Vector2)puntoDisparo.position
+            : (Vector2)transform.position;
+
+        // Determinar dirección
+        Vector2 direccion = facingRight ? Vector2.right : Vector2.left;
+
+        // Crear el proyectil
+        GameObject nuevoProyectil = Instantiate(proyectilPrefab, origen, Quaternion.identity);
+
+        // Configurar el proyectil
+        Projectile script = nuevoProyectil.GetComponent<Projectile>();
+        if (script != null)
+        {
+            script.Configurar(direccion, velocidadProyectil);
+        }
+
+        Debug.Log("¡Proyectil disparado hacia " + (facingRight ? "derecha" : "izquierda") + "!");
     }
 
     private void CheckGrounded()
