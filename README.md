@@ -207,3 +207,59 @@ Se configuro la camara para que siga al personaje de forma fluida.
 ## Repositorio
 
 https://github.com/Osvaldo8005/Aura_Gamer_Combat
+
+
+
+---
+
+# Unidad 3 - Actividad 3.5: El movimiento del jugador
+
+Se verifico y documento la programacion del movimiento del jugador en el juego 2D.
+
+## Criterios cumplidos
+
+1. **El personaje se desplaza correctamente con las flechas de direccion**
+   - Flecha izquierda o tecla A: caminar a la izquierda.
+   - Flecha derecha o tecla D: caminar a la derecha.
+   - Barra espaciadora: saltar.
+   - El movimiento se aplica en `FixedUpdate` con `rb.linearVelocity` para respetar las fisicas.
+
+2. **Se respetan las fisicas de colisiones previamente programadas**
+   - `Rigidbody2D` con `Gravity Scale = 3` (gravedad).
+   - `Box Collider 2D` en el jugador y en el suelo.
+   - Capa `Ground` para detectar colision con el suelo.
+   - `GroundCheck` con `Physics2D.OverlapCircle` para verificar si esta en el suelo.
+   - El personaje no atraviesa el suelo ni las rocas.
+
+3. **Enlace del repositorio publico**
+   - URL: https://github.com/Osvaldo8005/Aura_Gamer_Combat
+
+4. **Puntualidad en la entrega**
+
+## Controles
+
+| Tecla | Accion |
+| :--- | :--- |
+| **Izquierda / A** | Caminar a la izquierda |
+| **Derecha / D** | Caminar a la derecha |
+| **Espacio** | Saltar |
+| **Ctrl + F** | Disparar proyectil |
+| **Boton de nota** | Activar/silenciar musica |
+
+## Como funciona el movimiento
+
+| Elemento | Codigo |
+| :--- | :--- |
+| **Lectura del teclado** | `Keyboard.current.leftArrowKey.isPressed` |
+| **Movimiento horizontal** | `rb.linearVelocity = new Vector2(horizontalInput * moveSpeed, rb.linearVelocity.y)` |
+| **Salto** | `rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce)` |
+| **Deteccion de suelo** | `Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer)` |
+| **Volteo del sprite** | `transform.localScale.x *= -1f` |
+
+## Archivos relevantes
+
+- `Assets/Scripts/PlayerController.cs` - Movimiento, salto, gravedad y deteccion de suelo
+
+## Repositorio
+
+https://github.com/Osvaldo8005/Aura_Gamer_Combat
