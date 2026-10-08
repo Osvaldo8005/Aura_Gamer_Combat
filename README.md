@@ -164,3 +164,46 @@ Se configuraron las mecanicas de fisicas para el personaje del juego 2D.
 ## Repositorio
 
 https://github.com/Osvaldo8005/Aura_Gamer_Combat
+
+
+
+---
+
+# Unidad 3 - Actividad 3.4: Configuracion de la camara
+
+Se configuro la camara para que siga al personaje de forma fluida.
+
+## Criterios cumplidos
+
+1. **La camara sigue al personaje de forma fluida**
+   - Script `CameraFollow.cs` asignado a `Main Camera`.
+   - Usa `Vector3.Lerp` para suavizar el movimiento.
+   - Se ejecuta en `LateUpdate` para evitar tirones.
+
+2. **La vista es proporcional al area de juego**
+   - Camara ortografica con `Size = 5`.
+   - Offset configurado: `(0, 1, -10)`.
+   - El personaje siempre visible en pantalla.
+
+3. **Enlace del repositorio publico**
+   - URL: https://github.com/Osvaldo8005/Aura_Gamer_Combat
+
+4. **Puntualidad en la entrega**
+
+## Configuracion de la camara
+
+| Parametro | Valor |
+| :--- | :--- |
+| **Objetivo** | `Jugador` (Transform) |
+| **Suavidad** | `5` |
+| **Offset** | X=0, Y=1, Z=-10 |
+| **Limites** | Desactivados |
+| **Tamano ortografico** | `5` |
+
+## Archivos nuevos
+
+- `Assets/Scripts/CameraFollow.cs` - Script de seguimiento de camara
+
+## Repositorio
+
+https://github.com/Osvaldo8005/Aura_Gamer_Combat
