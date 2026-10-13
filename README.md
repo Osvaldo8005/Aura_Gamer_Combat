@@ -263,3 +263,31 @@ Se verifico y documento la programacion del movimiento del jugador en el juego 2
 ## Repositorio
 
 https://github.com/Osvaldo8005/Aura_Gamer_Combat
+
+
+
+---
+
+# Unidad 3 - Actividad 3.6: El movimiento de una bala
+
+Se verifico la animacion del personaje conectada a los eventos de movimiento y las mecanicas de disparo.
+
+## Criterios cumplidos
+
+1. **La animacion del personaje esta conectada a los eventos de movimiento**
+   - Al presionar la flecha izquierda o derecha, el personaje cambia de Idle a Run.
+   - Al soltar la flecha, vuelve a Idle.
+   - Al presionar Espacio, cambia a Jump.
+
+2. **No hay retrasos en las interacciones y mecanicas de disparo**
+   - Al presionar Ctrl + F, el proyectil sale inmediatamente desde la punta de la espada.
+   - El proyectil viaja, crece y explota con sonido sin retrasos.
+
+3. **Tres animaciones de estado funcionales**
+   - Idle_Anim (quieto)
+   - Run_Anim (corriendo)
+   - Jump_Anim (saltando)
+
+## Repositorio
+
+https://github.com/Osvaldo8005/Aura_Gamer_Combat

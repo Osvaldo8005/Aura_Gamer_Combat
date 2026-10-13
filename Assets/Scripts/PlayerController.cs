@@ -30,6 +30,7 @@ public class PlayerController : MonoBehaviour
 
     private static readonly int SpeedHash = Animator.StringToHash("Speed");
     private static readonly int IsGroundedHash = Animator.StringToHash("IsGrounded");
+    private static readonly int ShootHash = Animator.StringToHash("Shoot");
 
     private void Awake()
     {
@@ -82,7 +83,6 @@ public class PlayerController : MonoBehaviour
         if (keyboard == null)
             return;
 
-        // Ctrl + F para disparar
         bool ctrlPresionado = keyboard.leftCtrlKey.isPressed || keyboard.rightCtrlKey.isPressed;
         bool fPresionada = keyboard.fKey.wasPressedThisFrame;
 
@@ -101,22 +101,24 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
-        // Determinar posición de origen
         Vector2 origen = puntoDisparo != null
             ? (Vector2)puntoDisparo.position
             : (Vector2)transform.position;
 
-        // Determinar dirección
         Vector2 direccion = facingRight ? Vector2.right : Vector2.left;
 
-        // Crear el proyectil
         GameObject nuevoProyectil = Instantiate(proyectilPrefab, origen, Quaternion.identity);
 
-        // Configurar el proyectil
         Projectile script = nuevoProyectil.GetComponent<Projectile>();
         if (script != null)
         {
             script.Configurar(direccion, velocidadProyectil);
+        }
+
+        // Activar la animacion de disparo
+        if (animator != null)
+        {
+            animator.SetTrigger(ShootHash);
         }
 
         Debug.Log("¡Proyectil disparado hacia " + (facingRight ? "derecha" : "izquierda") + "!");
