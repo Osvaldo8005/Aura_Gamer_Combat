@@ -291,3 +291,34 @@ Se verifico la animacion del personaje conectada a los eventos de movimiento y l
 ## Repositorio
 
 https://github.com/Osvaldo8005/Aura_Gamer_Combat
+
+
+
+
+---
+
+# Unidad 3 - Actividad 3.7: Efectos de accion
+
+Se verifico que la trayectoria del proyectil cumple con los efectos de accion solicitados.
+
+## Criterios cumplidos
+
+1. **El proyectil no se ve afectado por la gravedad**
+   - El Rigidbody 2D del Prefab Proyectil esta en modo Kinematic.
+   - En modo Kinematic, Unity ignora la gravedad.
+   - El proyectil no cae mientras viaja.
+
+2. **La trayectoria del proyectil es lineal y constante**
+   - El script Projectile.cs mueve el proyectil con transform.Translate.
+   - La direccion se calcula al momento de disparar y no cambia.
+   - La velocidad es constante durante todo el recorrido.
+
+3. **La cantidad de proyectiles es uniforme y fluida**
+   - Hay un cooldown de 0.5 segundos entre disparos.
+   - El proyectil se destruye al explotar (Destroy).
+   - No se superponen proyectiles de forma erronea.
+   - Al presionar Ctrl + F, el personaje mueve la espada (animacion Shoot_Anim) y en ese instante nace el proyectil desde la punta de la espada.
+
+## Repositorio
+
+https://github.com/Osvaldo8005/Aura_Gamer_Combat
