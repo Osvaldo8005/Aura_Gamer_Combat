@@ -1,0 +1,652 @@
+fileFormatVersion: 2
+guid: db0a3a1087d352f4eabb92aab9cef54a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5449263062886599038
+    second: gems_and_jewellery_0
+  - first:
+      213: 7096332700023353938
+    second: gems_and_jewellery_1
+  - first:
+      213: 3396717326896619123
+    second: gems_and_jewellery_2
+  - first:
+      213: -1902332547050056755
+    second: gems_and_jewellery_3
+  - first:
+      213: -6799050796588542634
+    second: gems_and_jewellery_4
+  - first:
+      213: -3731218240360293775
+    second: gems_and_jewellery_5
+  - first:
+      213: 3564770386874632297
+    second: gems_and_jewellery_6
+  - first:
+      213: -1396499173416591050
+    second: gems_and_jewellery_7
+  - first:
+      213: 8989565736653239792
+    second: gems_and_jewellery_8
+  - first:
+      213: 1918002089500194790
+    second: gems_and_jewellery_9
+  - first:
+      213: 6226741116135553935
+    second: gems_and_jewellery_10
+  - first:
+      213: 3924628921472873066
+    second: gems_and_jewellery_11
+  - first:
+      213: 8863952693519773413
+    second: gems_and_jewellery_12
+  - first:
+      213: 4256888804251375343
+    second: gems_and_jewellery_13
+  - first:
+      213: -7717654600898523685
+    second: gems_and_jewellery_14
+  - first:
+      213: 5071034000620311788
+    second: gems_and_jewellery_15
+  - first:
+      213: 1624637537881871494
+    second: gems_and_jewellery_16
+  - first:
+      213: 5747864637864930454
+    second: gems_and_jewellery_17
+  - first:
+      213: -2540982451054996616
+    second: gems_and_jewellery_18
+  - first:
+      213: 1838606642441778293
+    second: gems_and_jewellery_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gems_and_jewellery_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 127
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e79430f52ebaf9b40800000000000000
+      internalID: 5449263062886599038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gems_and_jewellery_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 127
+        width: 51
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25271e02efc3b7260800000000000000
+      internalID: 7096332700023353938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gems_and_jewellery_2
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 127
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37e56188960932f20800000000000000
+      internalID: 3396717326896619123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gems_and_jewellery_3
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 127
+        width: 39
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc3da60a0ae8995e0800000000000000
+      internalID: -1902332547050056755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gems_and_jewellery_4
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 127
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 655d08bc25be4a1a0800000000000000
+      internalID: -6799050796588542634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gems_and_jewellery_5
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 127
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17adddb77cc083cc0800000000000000
+      internalID: -3731218240360293775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gems_and_jewellery_6
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 127
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9688e77a7cb987130800000000000000
+      internalID: 3564770386874632297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gems_and_jewellery_7
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 127
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 631a0679663ae9ce0800000000000000
+      internalID: -1396499173416591050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gems_and_jewellery_8
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 63
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f53d32a86a51cc70800000000000000
+      internalID: 8989565736653239792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gems_and_jewellery_9
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 63
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e7bd170dbc1e9a10800000000000000
+      internalID: 1918002089500194790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gems_and_jewellery_10
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 63
+        width: 20
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8b349fed04d96650800000000000000
+      internalID: 6226741116135553935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gems_and_jewellery_11
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 63
+        width: 21
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a627d93e535177630800000000000000
+      internalID: 3924628921472873066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gems_and_jewellery_12
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 63
+        width: 49
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eeec13f206130b70800000000000000
+      internalID: 8863952693519773413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gems_and_jewellery_13
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 63
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe69db140d1831b30800000000000000
+      internalID: 4256888804251375343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gems_and_jewellery_14
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 63
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bddc846c70265e490800000000000000
+      internalID: -7717654600898523685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gems_and_jewellery_15
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 63
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce4d6ea5e8eef5640800000000000000
+      internalID: 5071034000620311788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gems_and_jewellery_16
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 63
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 684d636ab3fdb8610800000000000000
+      internalID: 1624637537881871494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gems_and_jewellery_17
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69ce7f44f6484cf40800000000000000
+      internalID: 5747864637864930454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gems_and_jewellery_18
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 0
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8739d586ced9cbcd0800000000000000
+      internalID: -2540982451054996616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gems_and_jewellery_19
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5747a6cfffa048910800000000000000
+      internalID: 1838606642441778293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gems_and_jewellery_0: 5449263062886599038
+      gems_and_jewellery_1: 7096332700023353938
+      gems_and_jewellery_10: 6226741116135553935
+      gems_and_jewellery_11: 3924628921472873066
+      gems_and_jewellery_12: 8863952693519773413
+      gems_and_jewellery_13: 4256888804251375343
+      gems_and_jewellery_14: -7717654600898523685
+      gems_and_jewellery_15: 5071034000620311788
+      gems_and_jewellery_16: 1624637537881871494
+      gems_and_jewellery_17: 5747864637864930454
+      gems_and_jewellery_18: -2540982451054996616
+      gems_and_jewellery_19: 1838606642441778293
+      gems_and_jewellery_2: 3396717326896619123
+      gems_and_jewellery_3: -1902332547050056755
+      gems_and_jewellery_4: -6799050796588542634
+      gems_and_jewellery_5: -3731218240360293775
+      gems_and_jewellery_6: 3564770386874632297
+      gems_and_jewellery_7: -1396499173416591050
+      gems_and_jewellery_8: 8989565736653239792
+      gems_and_jewellery_9: 1918002089500194790
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

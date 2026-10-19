@@ -322,3 +322,38 @@ Se verifico que la trayectoria del proyectil cumple con los efectos de accion so
 ## Repositorio
 
 https://github.com/Osvaldo8005/Aura_Gamer_Combat
+
+
+---
+
+# Unidad 3 - Actividad 3.8: La conexion a base de datos
+
+Se implemento un sistema de guardado y carga de progreso (poderes) usando PlayerPrefs como base de datos local.
+
+## Criterios cumplidos
+
+1. **El jugador puede recolectar poderes en tiempo de ejecucion**
+   - Hay 6 poderes distribuidos en la escena (monedas, gemas, pociones).
+   - Al tocarlos, el contador en pantalla aumenta y suena un efecto.
+
+2. **El progreso se guarda de forma persistente**
+   - El juego guarda el poder total en la memoria del sistema (PlayerPrefs).
+   - Al volver a abrir el juego, el poder total del jugador se carga automaticamente.
+
+3. **Enlace del repositorio publico**
+   - URL: https://github.com/Osvaldo8005/Aura_Gamer_Combat
+
+4. **Puntualidad en la entrega**
+
+## Como funciona la base de datos
+
+| Elemento | Descripcion |
+| :--- | :--- |
+| **Almacenamiento** | `PlayerPrefs` (base de datos local de Unity). |
+| **Guardado** | Se guarda el poder total del jugador con `PlayerPrefs.SetInt`. |
+| **Carga** | Al iniciar, se lee el poder con `PlayerPrefs.GetInt`. |
+| **Persistencia** | El progreso se mantiene guardado en el sistema. |
+
+## Repositorio
+
+https://github.com/Osvaldo8005/Aura_Gamer_Combat
