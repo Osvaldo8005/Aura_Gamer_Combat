@@ -357,3 +357,31 @@ Se implemento un sistema de guardado y carga de progreso (poderes) usando Player
 ## Repositorio
 
 https://github.com/Osvaldo8005/Aura_Gamer_Combat
+
+
+
+---
+
+# Unidad 3 - Actividad 3.9: Las pruebas de resultados: el paso final
+
+Se realizo la compilacion (Build) del videojuego para generar un ejecutable autonomo y se agrego un menu de inicio funcional.
+
+## Criterios cumplidos
+
+1. **El archivo final es ejecutable de forma autonoma fuera de Unity**
+   - Se genero el archivo `Aura_Gamer_Combat.exe` en la carpeta `Build_Juego`.
+   - El juego se puede ejecutar haciendo doble clic en el `.exe` sin necesidad de abrir Unity.
+
+2. **El juego cuenta con un menu de inicio funcional y un boton de cierre**
+   - Al abrir el juego, aparece una pantalla de inicio que bloquea el juego.
+   - El jugador debe ingresar su nombre y hacer clic en INICIAR para poder jugar.
+   - El boton SALIR cierra el programa de forma correcta (`Application.Quit`).
+
+3. **Enlace del repositorio publico**
+   - URL: https://github.com/Osvaldo8005/Aura_Gamer_Combat
+
+4. **Puntualidad en la entrega**
+
+## Repositorio
+
+https://github.com/Osvaldo8005/Aura_Gamer_Combat
